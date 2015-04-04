@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/buttonsOpen"
+	android:gravity="center"
+	android:background="#666"
+	android:padding="8dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+					
+	<RelativeLayout
+		android:id="@+id/buttonLeft"
+		android:padding="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/seqOpen"
+			android:background="@drawable/def_button"				   						   		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="10dp"
+			android:text="@string/seqOpen" />	
+	</RelativeLayout>
+					
+	<RelativeLayout
+		android:id="@+id/buttonRight"
+		android:layout_toRightOf="@+id/buttonLeft"
+		android:padding="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/timerOpen"
+			android:background="@drawable/def_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="10dp"
+			android:text="@string/timerOpen" />
+	</RelativeLayout>
+	
+</RelativeLayout>

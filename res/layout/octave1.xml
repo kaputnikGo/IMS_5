@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/octave1" >
+		<RadioButton
+			android:id="@+id/oct0"
+			android:layout_width="18dp"
+			android:layout_height="20dp"
+			android:button="@drawable/octave_radio"
+			android:checked="true"/>
+		<RadioButton
+			android:id="@+id/oct1"
+			android:layout_width="18dp"
+			android:layout_height="20dp"
+			android:button="@drawable/octave_radio" />
+		<RadioButton
+			android:id="@+id/oct2"
+			android:layout_width="18dp"
+		    android:layout_height="20dp"
+			android:button="@drawable/octave_radio"/>
+		<RadioButton
+			android:id="@+id/oct3"
+			android:layout_width="18dp"
+		    android:layout_height="20dp"
+			android:button="@drawable/octave_radio"/>
+		<RadioButton
+			android:id="@+id/oct4"
+			android:layout_width="18dp"
+		    android:layout_height="20dp"
+			android:button="@drawable/octave_radio"/>
+		<RadioButton
+			android:id="@+id/oct5"
+			android:layout_width="18dp"
+		    android:layout_height="20dp"
+			android:button="@drawable/octave_radio"/>
+</RadioGroup>

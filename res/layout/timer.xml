@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/timeControl"
+    android:paddingTop="5dp"
+    android:paddingLeft="8dp"
+    android:background="#CCC"
+    android:layout_width="300dp"
+    android:layout_height="200dp">	
+            
+    	<RelativeLayout
+        	android:id="@+id/spdPkr"
+            android:layout_width="140dp"
+			android:layout_height="140dp"
+			android:paddingTop="5dp"
+			android:paddingLeft="18dp"
+			android:contentDescription="@string/num_pick" >
+			<include  
+	        	layout="@layout/spd_pkr" 
+	         	android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	         	android:id="@+id/spd_pkr" /> 
+	    </RelativeLayout>
+			
+        <RelativeLayout
+        	android:id="@+id/delPkr"
+            android:layout_toRightOf="@+id/spdPkr"
+            android:paddingTop="5dp"
+            android:paddingLeft="14dp"
+            android:layout_width="140dp"
+            android:contentDescription="@string/num_pick"
+			android:layout_height="140dp" >
+			<include  
+	        	layout="@layout/del_pkr" 
+	         	android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	         	android:id="@+id/del_pkr" />
+		</RelativeLayout>
+		<Button
+		   android:id="@+id/dismissTimer"
+		   android:background="@drawable/def_button"
+		   android:layout_below="@+id/delPkr"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:text="@string/dismiss" />		
+</RelativeLayout>

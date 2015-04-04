@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#666"
+	android:id="@+id/fltrLeftBtm"
+	android:padding="8dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		           
+		<ImageView 
+			android:id="@+id/fdpnView"
+			android:background="@drawable/touchpad"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"	
+			android:contentDescription="@string/control_pad" />
+		<TextView
+			android:id="@+id/pan_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:padding="6dp"
+			android:textSize="10dp"
+			android:textColor="#000"
+			android:text="@string/pan_text" />
+		<TextView
+		    android:id="@+id/fdpn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/fdpnView"
+			android:layout_alignTop="@+id/fdpnView"
+			android:layout_alignRight="@+id/fdpnView"
+			android:layout_alignBottom="@+id/fdpnView"
+			android:gravity="center"
+			android:text="@string/fdpn"
+			android:textStyle="bold|italic"
+			android:textColor="#a00032" />
+		<TextView
+			android:id="@+id/fdbk_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/fdpnView"
+			android:layout_alignRight="@+id/fdpnView"
+			android:padding="6dp"
+			android:textSize="10dp"
+			android:textColor="#000"
+			android:text="@string/fdbk_text" />
+</RelativeLayout>

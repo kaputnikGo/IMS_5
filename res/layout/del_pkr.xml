@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <com.cityfreqs.ui.IncDecPick
+		android:id="@+id/delPick1"
+		android:orientation="vertical"
+		android:textColor="#000"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+				 
+	<com.cityfreqs.ui.IncDecPick
+		android:id="@+id/delPick2"
+		android:layout_toRightOf="@+id/delPick1" 
+		android:orientation="vertical"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+				 
+	<com.cityfreqs.ui.IncDecPick
+		android:id="@+id/delPick3"
+		android:layout_toRightOf="@+id/delPick2" 
+		android:orientation="vertical"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+				
+	<TextView
+		android:id="@+id/del_pls_text"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/delPick1"
+		android:paddingTop="2dp"
+		android:textSize="10dp"
+		android:textColor="#000"
+		android:paddingLeft="2dp"
+		android:text="@string/del_pls_text" />				
+	</RelativeLayout>
+    

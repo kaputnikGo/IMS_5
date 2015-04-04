@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#666"
+	android:id="@+id/fltrRightTop"
+	android:padding="8dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		            
+		<ImageView 
+			android:id="@+id/rsrnView"
+			android:background="@drawable/touchpad"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/control_pad" />
+		<TextView
+			android:id="@+id/res_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="10dp"
+			android:padding="6dp"
+			android:textColor="#000"
+			android:text="@string/res_text" />
+		<TextView
+		    android:id="@+id/rsrn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/rsrnView"
+			android:layout_alignTop="@+id/rsrnView"
+			android:layout_alignRight="@+id/rsrnView"
+			android:layout_alignBottom="@+id/rsrnView"
+			android:gravity="center"
+			android:text="@string/rsrn"
+			android:textStyle="bold|italic"
+			android:textColor="#a00032" />
+		<TextView
+			android:id="@+id/rng_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/rsrnView"
+			android:layout_alignRight="@+id/rsrnView"
+			android:padding="6dp"
+			android:textSize="10dp"
+			android:textColor="#000"
+			android:text="@string/rng_text" />
+	</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">IMS5</string>
+    <string name="hello_world">hello pd fifth</string>
+    <string name="title_activity_main">IMS5</string>
+    <string name="app_title">IMS5 version 1.3</string> 
+    
+    <string name="spd_text">speed time</string>
+    <string name="oct_text">OCT</string>
+    
+    <string name="del_pls_text">delay time</string>
+    <string name="vol_text">VOL</string>
+    
+    <string name="atk_text">ATK</string>
+    <string name="dcy_text">DCY</string>
+    
+    <string name="control_pad">controller trackpad</string>
+    <string name="padder">no</string>
+    
+    <string name="s_hi_text">hi</string>
+    <string name="limit_text">lo</string>
+    <string name="fltr">FLTR</string>
+    
+    <string name="res_text">res</string>
+    <string name="rng_text">rng</string>
+    <string name="rsrn">RSRN</string>
+    
+    <string name="fdbk_text">fdbk</string>
+    <string name="pan_text">pan</string>
+    <string name="fdpn">FDPN</string>
+    
+    <string name="phs_text">phs</string>
+    <string name="phs_lo_text">lo</string>
+    <string name="phlo">PHLO</string>
+    
+    <string name="dismiss">dismiss</string>
+    <string name="seqOpen">sequencer</string>
+    <string name="timerOpen">timer</string>    
+    <string name="num_pick">number picker</string>
+    
+    <string name="footer">City Frequencies</string>
+
+</resources>

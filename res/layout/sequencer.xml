@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="300dp"
+   android:layout_height="300dp"
+   android:paddingLeft="8dp"
+   android:background="#CCC"
+   android:orientation="vertical" >
+
+	<RelativeLayout 
+            android:id="@+id/noteInput"
+            android:layout_width="250dp"
+            android:layout_height="260dp"> 
+         	<include  
+         	    layout="@layout/note1" 
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:id="@+id/noteGroup1" />
+			<include  
+         	    layout="@layout/note2"
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup1" 
+         	    android:id="@+id/noteGroup2" />
+            <include  
+         	    layout="@layout/note3" 
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup2"
+         	    android:id="@+id/noteGroup3" />
+			<include  
+         	    layout="@layout/note4"
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup3" 
+         	    android:id="@+id/noteGroup4" />
+			<include  
+         	    layout="@layout/note5" 
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup4"
+         	    android:id="@+id/noteGroup5" />
+			<include  
+         	    layout="@layout/note6" 
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup5"
+         	    android:id="@+id/noteGroup6" />
+			<include  
+         	    layout="@layout/note7"
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup6" 
+         	    android:id="@+id/noteGroup7" />
+			<include  
+         	    layout="@layout/note8"
+         	    android:layout_width="32dp"
+				android:layout_height="wrap_content"
+         	    android:layout_toRightOf="@+id/noteGroup7" 
+         	    android:id="@+id/noteGroup8" /> 
+        </RelativeLayout>
+
+		<Button
+		   android:id="@+id/dismiss"
+		   android:background="@drawable/def_button"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:text="@string/dismiss" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+IMS5 version 1.3 ("Fifth")
+release version 4
+
+CHANGES:
+
+-- for 1.3
+* added pd patch parameter string class
+* update pd patch to remove GUI components
+
+
+
+-- for 1.2
+* improve xml layout
+* dev machine changed to win7
+* UI classes for touchPad and SlidePad
+* inflaters for layout set for Large and X-Large screen density
+* pd patch fifth updated to receive only 0-100 and do necessary calculations 
+
+
+
+-- for 1.1
+* ACTION_MOVE for controllers to allow smoother xy sends to pd
+* removed 3 voice poly synth to increase performance
+* added octave radio group
+* removed synth send in pd and gui
+* added sequencer dialog popup
+* added timer dialog popup
+* factor for touchpad XY location for different screen sizes
+* re-size for 1.5 density screens
+* custom buttons
+
+
+TODO:
+
+* improve icon and artwork
+
+* showDialog(SEQ_DIALOG); deprecated - alt is DialogFragment, overly complicated...
+
+* make pd exclusive for media player controls on lockscreen etc
+-- audiomanager requestAudioFocus() in AudioWrapper.class?                                                              
+
+PROBLEMS
+* mediaplayer went away with unhandled events warning - possible due to below
+* android.media.AudioTrack getMinBufferSize() : invalid channel configuration errors
+* above is called from startAudio() pdservice.initAudio(n, n, n, n)
+*** will this cause a problem on released versions if can't solve? ***

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#666"
+	android:id="@+id/fltrRightBtm"
+	android:padding="8dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		<ImageView
+			android:id="@+id/phloView"
+		    android:background="@drawable/touchpad"
+		    android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+		    android:contentDescription="@string/control_pad" />
+		<TextView
+			android:id="@+id/phs_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:padding="6dp"
+			android:textSize="10dp"
+			android:textColor="#000"
+			android:text="@string/phs_text" />
+		<TextView
+		    android:id="@+id/phlo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/phloView"
+			android:layout_alignTop="@+id/phloView"
+			android:layout_alignRight="@+id/phloView"
+			android:layout_alignBottom="@+id/phloView"
+			android:gravity="center"
+			android:text="@string/phlo"
+			android:textStyle="bold|italic"
+			android:textColor="#a00032" />
+		<TextView
+			android:id="@+id/phs_lo_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/phloView"
+			android:layout_alignRight="@+id/phloView"
+			android:padding="6dp"
+			android:textSize="10dp"
+			android:textColor="#000"
+			android:text="@string/phs_lo_text" />
+</RelativeLayout>

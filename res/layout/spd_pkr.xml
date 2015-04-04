@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+	<com.cityfreqs.ui.IncDecPick
+		android:id="@+id/spdPick1"
+		android:orientation="vertical"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+					 
+	<com.cityfreqs.ui.IncDecPick
+		android:id="@+id/spdPick2"
+		android:layout_toRightOf="@+id/spdPick1" 
+		android:orientation="vertical"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+					 
+	<com.cityfreqs.ui.IncDecPick
+		android:id="@+id/spdPick3"
+		android:layout_toRightOf="@+id/spdPick2" 
+		android:orientation="vertical"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content">
+	</com.cityfreqs.ui.IncDecPick>
+	
+	<TextView
+		android:id="@+id/spd_text"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/spdPick1"
+		android:paddingTop="2dp"
+		android:textSize="10dp"
+		android:paddingLeft="2dp"
+		android:textColor="#000"
+		android:text="@string/spd_text" />
+	
+</RelativeLayout>

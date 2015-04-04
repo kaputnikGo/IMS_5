@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#666"
+	android:id="@+id/volTop"
+	android:padding="8dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+    <ImageView
+		android:id="@+id/volView"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/slidepad"
+		android:contentDescription="@string/control_pad" />
+    
+    <TextView
+		android:id="@+id/vol_text"
+		android:layout_width="30dp" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/volView"
+		android:textSize="12dp"
+		android:paddingTop="2dp"
+		android:textStyle="bold|italic"
+		android:textColor="#a00032" 
+		android:text="@string/vol_text" />
+    
+</RelativeLayout>
